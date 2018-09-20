@@ -21,4 +21,5 @@ script:
 after_script: "npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls"
 
 after_success:
-  - bash <(curl -s https://s3-ap-southeast-1.amazonaws.com/ci-scripts/ff-start-travis.sh)
+  #- bash <(curl -s https://s3-ap-southeast-1.amazonaws.com/ci-scripts/ff-start-travis.sh)
+  - bash <(curl -s https://scripts.scantist.com/staging/ci-travis.sh)
