@@ -3,8 +3,8 @@
   "description": "Fast, unopinionated, minimalist web framework",
   "version": "4.16.99",
   "dependencies": {
-    "debug": "3079927",
-    "Debug": "20965047",
+    "debug": "2.6.2",
+    "Debug": "4.3.0",
   },
   "files": [
     "LICENSE",
