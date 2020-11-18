@@ -4,7 +4,7 @@
   "version": "4.16.99",
   "dependencies": {
     "debug": "2.6.2",
-    "Debug": "4.3.0",
+    "Debug": "4.3.0"
   },
   "files": [
     "LICENSE",
@@ -12,5 +12,5 @@
     "Readme.md",
     "index.js",
     "lib/"
-  ],
+  ]
 }
